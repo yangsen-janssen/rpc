@@ -1,0 +1,34 @@
+{
+    "name": "janssen/rpc",
+    "description": "rpc",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "janssen",
+        "Yangsen",
+        "Rpc"
+    ],
+    "authors": [
+        {
+            "name": "janssen",
+            "email": "984054610@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/log": "^1.0",
+        "psr/cache": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "janssen\\Rpc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+}
